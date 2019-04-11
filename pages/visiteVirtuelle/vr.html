@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+
+    
+       
+ 
+       <!--normalize-->
+       <link async="async" href="../../assets/css/normalize.min.css" rel="stylesheet" type="text/css">
+       <link href="../../assets/css/pt-site.min.css" rel="stylesheet" type="text/css">
+
+     
+       
+ 
+       <!--Main site Css-->
+       <link rel="stylesheet" href="../../css/style.css" type="text/css">
+     
+
+      <!--bootstrap-->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+
+      <link rel='stylesheet' id='et-home-style-css'  href='../../assets/css/includes/style-ver%3d2.1.css' type='text/css' media='all' />
+
+
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  background-color:#4789F6;
+}
+.prev{
+background-color:#4789F6;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+
+}
+.dropdown-menu {
+    background-color: #4789f7 !important;
+}
+.two{
+
+
+}
+.three{
+
+
+}
+</style>
+</head>
+<body style="background-color:white;">
+
+  <header class="header wrapper-logo" id="navbarcolor">
+    <!--Header Logo container-->
+    <div class="header__payoff">
+       <a href="index.html"><img src="../../assets/images/logo2.png"></a>
+    
+    </div>
+
+    <!--Navbar-->
+    <nav role="navigation" class="header__nav">
+       <div data-ix="mobile-open-menu" class="nav__menu-icn">
+          <div class="menu-icn__topbar"></div>
+          <div class="menu-icn__botbar"></div>
+       </div>
+
+       <!--Navbar list-->
+       <ul class="nav__list">
+          <li class="nav__item">
+                <a class="nav__link w-inline-block" data-ix="link-line-hover" href="../../index.html">
+                   <div>ACCUEIL</div>
+                   <div class="link__bar"></div>
+                </a>
+             </li>
+             <li class="nav__item nav-item dropdown" style="padding-top: 18px;">
+                <a class="nav-link dropdown-toggle nav__link w-inline-block" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding:0px;">à propos</a>
+                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                     <a class="dropdown-item" href="#first-article">Qui Somme Nous?</a>
+                     <a class="dropdown-item" href="#">Visite Virtuelle</a>
+                     <a class="dropdown-item" href="#principes">Principes pédagogiques</a>
+                     <a class="dropdown-item" href="#">Notre impact</a>
+                     <a class="dropdown-item" href="#youcodeurs">Notre équipe</a>
+                     <a class="dropdown-item" href="#youcodeurs">Nos partenaires</a>
+                   </div>
+             </li>
+             <li class="nav__item nav-item dropdown" style="padding-top: 18px;">
+                <a class="nav-link dropdown-toggle nav__link w-inline-block" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding:0px;">Formation</a>
+                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                     <a class="dropdown-item" href="#programme">1ere année</a>
+                     <a class="dropdown-item" href="#programme">2eme année</a>
+                   </div>
+             </li>
+             <li class="nav__item">
+                <a class="nav__link w-inline-block" data-ix="link-line-hover" href="#">
+                   <div>Portfolio</div>
+                   <div class="link__bar"></div>
+                </a>
+             </li>
+
+             <li class="nav__item nav-item dropdown" style="padding-top: 18px;">
+                   <a class="nav-link dropdown-toggle nav__link w-inline-block" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding:0px;">Média</a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#blog-sec">Blog</a>
+                        <a class="dropdown-item" href="#">Galerie</a>
+                        <a class="dropdown-item" href="#">Youtimes</a>
+                      </div>
+                </li>
+             <li class="nav__item nav-item dropdown" style="padding-top: 18px;">
+                <a class="nav-link dropdown-toggle nav__link w-inline-block" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding:0px;">Condidature</a>
+                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#conditions-ac">Conditions d'accès</a>
+                      <a class="dropdown-item" href="#inscr">Comment condidater?</a>
+                   </div>
+             </li>
+             <li class="nav__item">
+                <a class="nav__link w-inline-block" data-ix="link-line-hover" href="#">
+                   <div>Calendrier</div>
+                   <div class="link__bar"></div>
+                </a>
+             </li>
+             <li class="nav__item">
+                   <a class="nav__link w-inline-block" data-ix="link-line-hover" href="#">
+                      <div>Contact</div>
+                      <div class="link__bar"></div>
+                   </a>
+                </li>
+          <li class="nav__item inscription">
+             <a class="nav__link w-inline-block" data-ix="link-line-hover w-inline-block" href="#">
+                <div>Inscription</div>
+                <div class="link__bar"></div>
+             </a>
+          </li>
+
+       </ul>
+    </nav>
+ </header>
+
+
+<div  style="margin:40px;margin-top: 100px;width:70%;margin-left: 200px;/* margin: auto; */" class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="../../assets/images/a.png" style="width:100%;height:80%;">
+</div>
+
+<div class="mySlides fade">
+  <img src="../../assets/images/b.png" style="width:100%;height:80%;">
+</div>
+
+<div class="mySlides fade">
+  <img src="../../assets/images/c.png" style="width:100%;height:80%;">
+</div>
+
+<div class="mySlides fade">
+  <img src="../../assets/images/d.png" style="width:100%;height:80%;">
+</div>
+<!--- hna zid des images ila briti matnssach t3tihom lclass ! mySlides fade -->
+<div class="left">
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<span style="color:yellow;position: relative;bottom: 238px;font-style: italic;left: 51px;font-size: large;color: #4789F6;">Left</span>
+</div>
+<div class="right">
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+<span style="color:yellow;position: relative;bottom: 238px;font-style: italic;left: 744px;font-size: large;color: #4789F6;">Right</span>
+</div>
+
+<div class="forward" style="    width: 18%;
+    position: relative;
+    bottom: 38px;
+    left: 97px;">
+<a style="cursor:pointer;"><i style="font-size: 46px;position: relative;bottom: 71px;left: 60px;color:#4789F6;" class="fa" onclick="plusSlides(-2)">&#xf0ab;</i></a>
+<span style="color:yellow;position: relative;bottom: 83px;font-style: italic;left: 70px;font-size: large;color: #4789F6;">Backward</span>
+</div>
+<div class="back" style="    width: 18%;
+    position: relative;
+    bottom: 84px;">
+<span style="color:yellow;position: relative;bottom: 83px;font-style: italic;left: 641px;font-size: large;color: #4789F6;">Forward</span>
+<a style="cursor:pointer;"><i style="font-size: 46px;position: relative;bottom: 70px;left: 498px;color:#4789F6;" class="fa" onclick="plusSlides(2)">&#xf0aa;</i></a>
+</div>
+
+</div>
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html>

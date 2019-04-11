@@ -1,0 +1,5 @@
+.splash .img16{
+    animation: FadeOut 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}

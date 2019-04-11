@@ -1,0 +1,697 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ---------- FONTAWESOME ---------- */
+/* ---------- http://fortawesome.github.com/Font-Awesome/ ---------- */
+/* ---------- http://weloveiconfonts.com/ ---------- */
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+*[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato.otf");
+}
+/* ---------- GENERAL ---------- */
+.dropdown-menu {
+    background-color: #4789f7 !important;
+}
+
+body {
+	background: #f9f9f9;
+	color: #0e171c;
+	font: 300 100%/1.5em 'Lato', sans-serif;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 2.25em;
+	line-height: 1.25em;
+	margin: .25em 0;
+}
+
+h3 {
+	font-size: 1.75em;
+	line-height: 1em;
+	margin: .33em 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container2 {
+
+	margin: -255px 0 0 -245px;
+    top: 479px;
+    width: 491px;
+    height: 375px;
+    position: relative;
+    left: 941px
+}
+
+/* ---------- CALENDAR ---------- */
+
+.calendar {
+	text-align: center;
+}
+
+.calendar header {
+	position: relative;
+}
+
+.calendar h2 {
+	text-transform: uppercase;
+}
+
+.calendar thead {
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.calendar tbody {
+	color: #7c8a95;
+}
+
+.calendar tbody td:hover {
+	border: 2px solid #4789f7;
+}
+
+.calendar td {
+	border: 2px solid transparent;
+	border-radius: 50%;
+	display: inline-block;
+	height: 4em;
+	line-height: 4em;
+	text-align: center;
+	width: 4em;
+}
+
+.calendar .prev-month,
+.calendar .next-month {
+	color: #cbd1d2;
+}
+
+.calendar .prev-month:hover,
+.calendar .next-month:hover {
+	border: 2px solid #cbd1d2;
+}
+
+.current-day {
+	background: #4789f7;
+	color: #f9f9f9;
+}
+
+.event {
+	cursor: pointer;
+	position: relative;
+}
+
+.event:after {
+	background: #4789f7;
+	border-radius: 50%;
+	bottom: .5em;
+	display: block;
+	content: '';
+	height: .5em;
+	left: 50%;
+	margin: -.25em 0 0 -.25em;
+	position: absolute;
+	width: .5em;
+}
+
+.event.current-day:after {
+	background: #f9f9f9;
+}
+
+.btn-prev,
+.btn-next {
+	border: 2px solid #cbd1d2;
+	border-radius: 50%;
+	color: #cbd1d2;
+	height: 2em;
+	font-size: .75em;
+	line-height: 2em;
+	margin: -1em;
+	position: absolute;
+	top: 50%;
+	width: 2em;
+}
+
+.btn-prev:hover,
+.btn-next:hover {
+	background: #cbd1d2;
+	color: #f9f9f9;
+}
+
+.btn-prev {
+	left: 6em;
+}
+
+.btn-next {
+	right: 6em;
+}
+
+
+/* ---------- MENUE ---------- */
+.menue {
+
+	background-color: #0980ff;
+    height: 522px;
+    width: 649px;
+    border-style: none;
+    position: relative;
+    top: 63px;
+    
+}
+
+.menue h6 {
+
+	position: relative;
+    left: 259px;
+    top: 28px;
+    padding: 0px;
+    color: white;
+    font-family: lato;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 25px;
+    letter-spacing: 0.4px;
+}
+
+.menue h1 {
+
+	position: relative;
+    left: 259px;
+    top: 3px;
+    padding: 0px;
+    color: #ffffff;
+    font-family: "lato";
+    font-weight: 900;
+	font-size: 18px;
+    margin: 25px;
+
+
+}
+
+.menue h2 { 
+	
+	position: relative;
+    left: 108px;
+    top: -57px;
+    padding: 0px;
+    color: #ffffff;
+    font-family: "lato";
+    font-weight: 400;
+    font-size: 32px;
+    margin: -21px;
+    width: 10%;
+    height: 10%;
+
+ }
+
+.menue h3 {
+
+
+    position: relative;
+    left: 47px;
+    top: -45px;
+    padding: 0px;
+    color: #ffffff;
+    font-family: "lato";
+    font-weight: 400;
+    font-size: 20px;
+    margin: -21px;
+    width: 10%;
+    height: 10%;
+
+
+}
+
+.icon img {
+
+	display: block;
+    width: 34px;
+    position: relative;
+    bottom: 116px;
+    margin: 10px;
+    left: 18px;
+    bottom: 130px;
+}
+
+.icon2 img {
+
+
+	display: block;
+    position: relative;
+    left: 200px;
+    width: 60px;
+    bottom: 162px;
+    margin-bottom: 29px;
+
+}
+
+.button1 {
+
+	border: 4px solid #ffffff;
+    border-radius: 58px;
+    width: 104px;
+    height: 32px;
+    position: relative;
+    bottom: 349px;
+    left: 524px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+.button1 .texte {
+
+	position: relative;
+    left: 16px;
+    top: -3px !important;
+    color: white;
+    font-weight: 900;
+
+}
+.ligne-horizontale img { 
+
+	width: 661px;
+    height: -1.5px;
+    position: relative;
+    bottom: 178px;
+ }
+
+ .ligne-verticale  img {
+
+    width: 1.5px;
+    height: 85px;
+    position: relative;
+    bottom: 283px;
+    left: 178px;
+ 	
+ }
+
+/******************************************/
+
+#first-article {
+    margin-top: 155px !important;
+    height: 473px !important;
+}
+.menue1 {
+
+
+
+	position: relative;
+    top: -353px;
+}
+
+.menue1 h6 {
+
+	position: relative;
+    left: 259px;
+    top: -13px;
+    padding: 0px;
+    color: white;
+    font-family: lato;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 25px;
+    letter-spacing: 0.4px;
+    width: 18%;
+}
+
+.menue1 h1 {
+
+    position: relative;
+    left: 259px;
+    top: -38px;
+    padding: 0px;
+    color: #ffffff;
+    font-family: "lato";
+    font-weight: 900;
+	font-size: 18px;
+    margin: 25px;
+    width: 18%;
+
+
+}
+
+.menue1 h2 { 
+	
+	position: relative;
+    left: 108px;
+    top: -97px;
+    padding: 0px;
+    color: #ffffff;
+    font-family: "lato";
+    font-weight: 400;
+    font-size: 32px;
+    margin: -21px;
+    width: 10%;
+    height: 10%;
+
+ }
+
+.menue1 h3 {
+
+
+    position: relative;
+    left: 47px;
+    top: -73px;
+    padding: 0px;
+    color: #ffffff;
+    font-family: "lato";
+    font-weight: 400;
+    font-size: 20px;
+    margin: -21px;
+    width: 10%;
+    height: 10%;
+
+
+}
+
+.icon img {
+
+	display: block;
+    width: 34px;
+    position: relative;
+    bottom: 116px;
+    margin: 10px;
+    left: 18px;
+    bottom: 130px;
+}
+
+.icon2 img {
+
+
+	display: block;
+    position: relative;
+    left: 200px;
+    width: 60px;
+    bottom: 162px;
+    margin-bottom: 29px;
+
+}
+
+.button1 {
+
+	border: 4px solid #ffffff;
+    border-radius: 58px;
+    width: 104px;
+    height: 32px;
+    position: relative;
+    bottom: 349px;
+    left: 524px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+.button1 .texte {
+
+	position: relative;
+    left: 16px;
+    top: 4px;
+    color: white;
+    font-weight: 900;
+
+}
+.ligne-horizontale img { 
+
+	width: 661px;
+    height: -1.5px;
+    position: relative;
+    bottom: 178px;
+ }
+
+ .ligne-verticale  img {
+
+    width: 1.5px;
+    height: 85px;
+    position: relative;
+    bottom: 283px;
+    left: 178px;
+ 	
+ }
+
+/**********************/
+
+
+.menue2 {
+
+
+	position: relative;
+    bottom: 636px;
+}
+
+.menue2 h6 {
+
+	position: relative;
+    left: 259px;
+    top: -13px;
+    padding: 0px;
+    color: white;
+    font-family: lato;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 25px;
+    letter-spacing: 0.4px;
+    width: 18%;
+}
+
+.menue2 h1 {
+
+    position: relative;
+    left: 259px;
+    top: -38px;
+    padding: 0px;
+    color: #ffffff;
+    font-family: "lato";
+    font-weight: 900;
+	font-size: 18px;
+    margin: 25px;
+    width: 18%;
+
+
+}
+
+.menue2 h2 { 
+	
+	position: relative;
+    left: 108px;
+    top: -97px;
+    padding: 0px;
+    color: #ffffff;
+    font-family: "lato";
+    font-weight: 400;
+    font-size: 32px;
+    margin: -21px;
+    width: 10%;
+    height: 10%;
+
+ }
+
+.menue2 h3 {
+
+
+    position: relative;
+    left: 47px;
+    top: -73px;
+    padding: 0px;
+    color: #ffffff;
+    font-family: "lato";
+    font-weight: 400;
+    font-size: 20px;
+    margin: -21px;
+    width: 10%;
+    height: 10%;
+
+
+}
+
+.icon img {
+
+	display: block;
+    width: 34px;
+    position: relative;
+    bottom: 116px;
+    margin: 10px;
+    left: 18px;
+    bottom: 130px;
+}
+
+.icon2 img {
+
+
+	display: block;
+    position: relative;
+    left: 200px;
+    width: 60px;
+    bottom: 162px;
+    margin-bottom: 29px;
+
+}
+
+.button1 {
+
+	border: 4px solid #ffffff;
+    border-radius: 58px;
+    width: 104px;
+    height: 32px;
+    position: relative;
+    bottom: 349px;
+    left: 524px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+.button1 .texte {
+
+	position: relative;
+    left: 16px;
+    top: 4px;
+    color: white;
+    font-weight: 900;
+
+}
+.ligne-horizontale img { 
+
+	width: 661px;
+    height: -1.5px;
+    position: relative;
+    bottom: 178px;
+ }
+
+ .ligne-verticale  img {
+
+    width: 1.5px;
+    height: 85px;
+    position: relative;
+    bottom: 283px;
+    left: 178px;
+ 	
+ }
+
+
+
+/**************************************/
+
+
+.menue3 {
+
+	position: relative;
+    bottom: 802px;
+
+
+}
+
+
+
+
+.menue3 h1 {
+
+    position: relative;
+    left: 205px;
+    top: -135px;
+    padding: 0px;
+    color: #ffffff;
+    font-family: "lato";
+    font-weight: 900;
+	font-size: 18px;
+    margin: 25px;
+    width: 18%;
+
+}
+.menue3 .icon img {
+
+
+	display: block;
+    position: relative;
+    left: 15px;
+    width: 35px;
+    bottom: 196px;
+    margin-bottom: 10px;
+
+}
+
+.ligne-horizontale img { 
+
+	width: 661px;
+    height: -1.5px;
+    position: relative;
+    bottom: 178px;
+ }
+
+ .ligne-verticale  img {
+
+    width: 1.5px;
+    height: 85px;
+    position: relative;
+    bottom: 283px;
+    left: 178px;
+ 	
+ }
+
+
+/*****************/
+
+
+.menue4 {
+
+	position: relative;
+    bottom: 933px;
+
+}
+
+
+
+
+.menue4 h1 {
+
+    position: relative;
+    left: 205px;
+    top: -135px;
+    padding: 0px;
+    color: #ffffff;
+    font-family: "lato";
+    font-weight: 900;
+	font-size: 18px;
+    margin: 25px;
+    width: 18%;
+
+}
+.menue4 .icon img {
+
+
+	display: block;
+    position: relative;
+    left: 15px;
+    width: 35px;
+    bottom: 196px;
+    margin-bottom: 10px;
+
+}
+
+.ligne-horizontale img { 
+
+	width: 661px;
+    height: -1.5px;
+    position: relative;
+    bottom: 178px;
+ }
+
+ .ligne-verticale  img {
+
+    width: 1.5px;
+    height: 85px;
+    position: relative;
+    bottom: 283px;
+    left: 178px;
+ 	
+ }

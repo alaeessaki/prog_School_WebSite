@@ -1,0 +1,145 @@
+/* ANIMATION SVG ICON */
+svg.line-svg{
+	margin-top:-30px;
+}
+svg.line-svg line.line-1{
+}
+svg.line-svg line{
+	stroke-dasharray: 0 50;
+}
+svg.line-svg.start-paint line{
+	stroke-dasharray: 50 0;
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	animation: left-paint-line-svg 5s cubic-bezier(0, 0.5, 0.17, 1) 1;
+	-webkit-animation: left-paint-line-svg 5s cubic-bezier(0, 0.5, 0.17, 1) 1;
+}
+@keyframes left-paint-line-svg {
+	from {
+	  stroke-dasharray: 0 50;
+	}
+	to {
+	  stroke-dasharray: 50 0;
+	}
+}
+@-webkit-keyframes left-paint-line-svg {
+	from {
+	  stroke-dasharray: 0 50;
+	}
+	to {
+	  stroke-dasharray: 50 0;
+	}
+}
+/* ICON 1 */
+.icon-feature-svg svg#icon-1 g line {
+	stroke-dasharray: 0 19;
+}
+.icon-feature-svg svg#icon-1 polyline{
+	stroke-dasharray: 52;
+}
+.icon-feature-svg svg#icon-1 g line.start-paint{
+	animation: dash 1s linear 1;
+	-webkit-animation: dash 1s linear 1;
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+}
+.icon-feature-svg svg#icon-1 polyline.start-paint{
+	animation: dash-polyline 1s linear 1;
+	animation-fill-mode: forwards;
+	-webkit-animation: dash-polyline 1s linear 1;
+	-webkit-animation-fill-mode: forwards;
+}
+/* ICON 2 */
+.icon-feature-svg svg#icon-2 path, .icon-feature-svg svg#icon-2 line{
+	stroke-dasharray: 0 50;
+}
+.icon-feature-svg svg#icon-2 path.start-paint, .icon-feature-svg svg#icon-2 line.start-paint{
+	animation: dash-polyline 3s linear 1;
+	-webkit-animation: dash-polyline 3s linear 1;
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+}
+/* ICON 3 */
+.icon-feature-svg svg#icon-3 circle, .icon-feature-svg svg#icon-3 polyline{
+	stroke-dasharray: 0 50;	
+}
+.icon-feature-svg svg#icon-3 circle.start-paint, .icon-feature-svg svg#icon-3 polyline.start-paint{
+	animation: dash-polyline 2s linear 1;
+	-webkit-animation: dash-polyline 2s linear 1;
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+}
+/* ICON 4 */
+.icon-feature-svg svg#icon-4 rect, .icon-feature-svg svg#icon-4 polyline, .icon-feature-svg svg#icon-4 line{
+	stroke-dasharray: 0 50;
+}
+.icon-feature-svg svg#icon-4 rect.start-paint, .icon-feature-svg svg#icon-4 polyline, .icon-feature-svg svg#icon-4 line.start-paint{
+	animation: dash-polyline 2s linear 1;
+	-webkit-animation: dash-polyline 2s linear 1;
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+}
+/* ICON 5 */
+.icon-feature-svg svg#icon-5 polyline, .icon-feature-svg svg#icon-5 line{
+	stroke-dasharray: 0 50;
+}
+.icon-feature-svg svg#icon-5 polyline.start-paint, .icon-feature-svg svg#icon-5 line.start-paint{
+	animation: dash-polyline 2s linear 1;
+	-webkit-animation: dash-polyline 2s linear 1;
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+}
+/* ICON 6 */
+.icon-feature-svg svg#icon-6 polyline, .icon-feature-svg svg#icon-6 line, .icon-feature-svg svg#icon-6 path{
+	stroke-dasharray: 0 50;
+}
+.icon-feature-svg svg#icon-6 polyline.start-paint, .icon-feature-svg svg#icon-6 line.start-paint, .icon-feature-svg svg#icon-6 path.start-paint{
+	animation: dash-polyline 2s linear 1;
+	-webkit-animation: dash-polyline 2s linear 1;
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+}
+#icon_help_1, #icon_help_2, #icon_help_3{
+	margin-left: -20px;
+	margin-bottom: -15px;
+}
+#icon_help_1 path{
+	stroke-dasharray: 0 50;
+	animation: dash-polyline 2s linear 1;
+	-webkit-animation: dash-polyline 2s linear 1;
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+}
+@keyframes dash {
+	from {
+	  stroke-dasharray: 0 19;
+	}
+	to {
+	  stroke-dasharray: 19 0;
+	}
+}
+@-webkit-keyframes dash {
+	from {
+	  stroke-dasharray: 0 19;
+	}
+	to {
+	  stroke-dasharray: 19 0;
+	}
+}
+@keyframes dash-polyline{
+	from {
+	  stroke-dasharray: 0 52;
+	}
+	to {
+	  stroke-dasharray: 52 0;
+	}
+}
+@-webkit-keyframes dash-polyline {
+	from {
+	  stroke-dasharray: 0 52;
+	}
+	to {
+	  stroke-dasharray: 52 0;
+	}
+}
+

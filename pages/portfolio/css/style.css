@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "Bebas Neue Regular";
+  src: url("../../../fonts/BebasNeueRegular.otf");
+}
+
+header {
+  background-color: white;
+  opacity: 0.9;
+}
+
+.card {
+  margin-top: 40px;
+  border: unset;
+  padding: 0 42px;
+  -webkit-box-flex: 26%;
+      -ms-flex: 26%;
+          flex: 26%;
+}
+
+.card-sp img {
+  height: 450px;
+}
+
+.card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.card-body p {
+  color: #4789f7;
+  font-family: Bebas Neue Regular;
+  text-transform: uppercase;
+  font-size: 34px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin-bottom: 3px;
+}
+
+.card-body h6 {
+  text-transform: uppercase;
+  color: grey;
+  opacity: 0.3;
+  font-size: 22px;
+  font-weight: 100;
+}
+
+.card-text-b {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card2 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  left: 20.5%;
+  top: 64px;
+  display: none;
+}
+
+.titlep {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.titlep h1 {
+  color: #4789f7;
+}
+
+.nav-tabs {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.link2 {
+  color: #4789f7;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: Bebas Neue Regular;
+  margin-right: 30px !important;
+}
+
+.link3 {
+  margin-right: 0px !important;
+}
+
+.nav-item:hover {
+  background-color: unset;
+  color: unset;
+}
+
+.card-header {
+  background-color: unset;
+  border: unset;
+}
+
+.third_tab {
+  display: none;
+}
+
+#second_tab {
+  display: none;
+}
+
+.second-div-container {
+  text-align: left;
+}
+
+#fourth_tab {
+  display: none;
+  width: 30%;
+}
+
+#third_tab {
+  height: 300px;
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
